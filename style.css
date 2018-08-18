@@ -1,0 +1,149 @@
+/* body,html {
+    display: flex;
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.div{
+    display: flex;
+    flex-direction: column;
+}
+.containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.weather-today{
+    background-image: url('background-image.jpg');;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather-detail{
+   height: 300px;
+   width: 800px;
+}
+.temp{
+    display: flex;
+}
+#icon{
+    font-size: 100px;
+    position: relative;
+    left: 30px;
+
+}
+.container {
+    height: 500px;
+    width: 500px;    
+    display: flex;
+}
+section {
+    padding: 16px;
+}
+i {
+    font-size: 30px;
+}
+p {
+    font-size: 30px;
+} */
+
+
+body {
+    text-align: center;
+    color: white;
+    background-color: #01758e;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #2ba1ad;
+    border-radius: 5px;
+    height: 180px;
+    width: 540px;
+    padding: 16px 0 16px 0;
+    background-color: #48a5b6;
+    -webkit-box-shadow: 0px 0px 21px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 21px -4px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 21px -4px rgba(0,0,0,0.75);
+}
+section {
+    padding: 16px;
+}
+p {
+    font-size: 30px;
+} 
+i {
+    font-size: 40px;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+.column.middle {
+    width: 50%;
+}
+.column.side {
+    width: 25%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#icon {
+    font-size: 100px;
+}
+.degree {
+    font-size: 50px;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #2ba1ad;
+    border-radius: 5px;
+    width: 537px;
+    margin: 20px;
+    padding-top: 25px;
+    background-color: #48a5b6;
+    -webkit-box-shadow: 0px 0px 21px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 21px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 21px -4px rgba(0,0,0,0.75);
+}
+.app {
+    font-size: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
